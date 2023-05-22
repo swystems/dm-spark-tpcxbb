@@ -1,0 +1,10 @@
+t_time_sk                 bigint               false
+t_time_id                 string               false
+t_time                    int
+t_hour                    int
+t_minute                  int
+t_second                  int
+t_am_pm                   string
+t_shift                   string
+t_sub_shift               string
+t_meal_time               string

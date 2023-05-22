@@ -1,0 +1,4 @@
+inv_date_sk               bigint                 false
+inv_item_sk               bigint                 false
+inv_warehouse_sk          bigint                 false
+inv_quantity_on_hand      int
