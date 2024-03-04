@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "assignment-07-spark"
+version = "0.1.0"
+description = "Spark homework assignment of the Data Management course at USI Università della Svizzera italiana"
+authors = ["Jeferson Morales Mariciano <jeferson.morales.mariciano@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyspark = "^3.5.1"
+jupyterlab = "^4.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
