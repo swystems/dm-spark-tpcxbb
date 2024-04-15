@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Spark homework assignment of the Data Management course at USI Università della Svizzera italiana"
 authors = ["Jeferson Morales Mariciano <jeferson.morales.mariciano@gmail.com>"]
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.10"
