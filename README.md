@@ -10,7 +10,7 @@ Spark SQL homework based on TPCx-BB for the Data Management course
 
 ## Setup
 
-The dependency management of the python3 project is done using 
+The dependency management of the python3.10 project is done using 
 [poetry](https://python-poetry.org/docs/).
 It will create a virtual environment and install the dependencies in it.
 
