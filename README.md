@@ -18,7 +18,7 @@ Here a short script to do so assuming an Ubuntu system:
 ```shell
 # install pipx
 sudo apt update             && \
-sudo apt install pipx       && \
+sudo apt install -y pipx    && \
 pipx ensurepath             && \
 
 # install poetry
