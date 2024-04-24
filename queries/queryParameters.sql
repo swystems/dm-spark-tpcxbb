@@ -40,7 +40,7 @@
 
 -- READ ME
 -- ITEM_SK
--- Datagenerator ensures that item_sk's 10000-10002 are very frequent accross all scalefactors
+-- Datagenerator ensures that item_sk's 10000-10002 are very frequent across all scale factors
 
 -------- Q01 -----------
 --category_ids:
