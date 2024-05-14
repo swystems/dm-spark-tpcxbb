@@ -14,7 +14,11 @@ The dependency management of the python3.10 project is done using
 [poetry](https://python-poetry.org/docs/).
 It will create a virtual environment and install the dependencies in it.
 
-Here a short script to do so assuming an Ubuntu system:
+If you prefer to manually install the dependencies, 
+check out the `pyproject.toml`.
+
+Here a script to leverage the automated installation of
+the virtual environment and deps on a Debian-based systems:
 ```shell
 # install pipx
 sudo apt update             && \
@@ -31,10 +35,9 @@ poetry install              && \
 poetry shell;
 ```
 
-Refer to its documentation to install it.
-
 Suggestion: 
-use the same environment in Pycharm IDE by selecting the python
-interpreter from the poetry venv[^1] to benefit from its integration.
+use the same python environment in Pycharm IDE 
+by selecting the python interpreter from the poetry venv[^1] 
+to benefit from its integration.
 
-[^1]: virtual environment
+[^1]: https://www.jetbrains.com/help/pycharm/poetry.html#existing-poetry-environment
