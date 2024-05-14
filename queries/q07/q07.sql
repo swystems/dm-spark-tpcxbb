@@ -72,7 +72,7 @@ FROM
   customer_address a,
   customer c,
   store_sales s,
-  ${TEMP_TABLE} highPriceItems
+  ${TEMP_TABLE} highPriceItems -- defined above
 WHERE a.ca_address_sk = c.c_current_addr_sk
 AND c.c_customer_sk = s.ss_customer_sk
 AND ca_state IS NOT NULL

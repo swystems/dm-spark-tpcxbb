@@ -35,10 +35,10 @@
 --IMPLEMENTATION NOTICE:
 -- "Market basket analysis"
 -- create pairs of "viewed together" items within one sale (one sale == one ss_sales_sk)
--- There are are several ways to to "basketing". Implemented is way A)
+-- There are are several ways to do "basketing". Implemented is way A)
 -- A) collect distinct viewed items per session (same sales_sk) in list and employ a UDTF to produce pairwise combinations of all list elements
 -- B) distribute by sales_sk end employ reducer streaming script to aggregate all items per session and produce the pairs
--- C) pure SQL: produce pairings by self joining on sales_sk and filtering out left.item_sk < right.item_sk (elimiates dupplicates and switched posistions)
+-- C) pure SQL: produce pairings by self joining on sales_sk and filtering out left.item_sk < right.item_sk (eliminate duplicates and switched positions)
 
 
 -- Resources
@@ -61,6 +61,7 @@ STORED AS ${env:BIG_BENCH_spark_sql_default_fileformat_result_table} LOCATION '$
 
 -- the real query part
 -- Find the most frequent ones
+-- IMPORTANT consult file `queries/queryParameters.sql` for q01_xxx argument variables
 
 INSERT INTO TABLE ${RESULT_TABLE}
 SELECT i_category, COUNT(*)
