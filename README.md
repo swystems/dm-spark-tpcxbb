@@ -35,6 +35,17 @@ poetry install              && \
 poetry shell;
 ```
 
+## Run
+
+To run the Jupyter Lab in order to edit the notebook,
+from within the repository root run the following command:
+
+```shell
+jupyter lab
+```
+
+It will open a browser tab with the Jupyter lab interface.
+
 Suggestion: 
 use the same python environment in Pycharm IDE 
 by selecting the python interpreter from the poetry venv[^1] 

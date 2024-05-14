@@ -9,10 +9,11 @@ package-mode = false
 [tool.poetry.dependencies]
 python = "^3.10"
 pyspark = "^3.5.1"
-jupyter = "^1.0.0"
-notebook = "^7.1.2"
-pre-commit = "^3.7.1"
+jupyterlab = "^4.2.0"
 
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.7.1"
 
 [build-system]
 requires = ["poetry-core"]
