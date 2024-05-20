@@ -10,11 +10,11 @@ Spark SQL homework based on TPCx-BB for the Data Management course
 
 ## Setup
 
-The dependency management of the python3.10 project is done using 
+The dependency management of the python3.10 project is done using
 [poetry](https://python-poetry.org/docs/).
 It will create a virtual environment and install the dependencies in it.
 
-If you prefer to manually install the dependencies, 
+If you prefer to manually install the dependencies,
 check out the `pyproject.toml`.
 
 Here a script to leverage the automated installation of
@@ -46,9 +46,10 @@ jupyter lab
 
 It will open a browser tab with the Jupyter lab interface.
 
-Suggestion: 
-use the same python environment in Pycharm IDE 
-by selecting the python interpreter from the poetry venv[^1] 
+Suggestion:
+use the same python environment in your IDE
+by selecting the python interpreter from the poetry venv,
+e.g. pycharm [^1],
 to benefit from its integration.
 
 [^1]: https://www.jetbrains.com/help/pycharm/poetry.html#existing-poetry-environment
