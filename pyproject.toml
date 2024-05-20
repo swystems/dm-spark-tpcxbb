@@ -11,9 +11,9 @@ python = "^3.10"
 pyspark = "^3.5.1"
 jupyterlab = "^4.2.0"
 
-
 [tool.poetry.group.dev.dependencies]
 pre-commit = "^3.7.1"
+black = {version = "^24.4.2", extras = ["jupyter"]}
 
 [build-system]
 requires = ["poetry-core"]
